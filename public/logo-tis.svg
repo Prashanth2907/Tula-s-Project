@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" class="w-auto h-12">
+  <g transform="translate(10, 8)">
+    <!-- Crest Shield -->
+    <path d="M30 4 L54 14 V38 C54 52 30 62 30 62 C30 62 6 52 6 38 V14 Z" fill="#B90124" stroke="#C09D59" stroke-width="2"/>
+    <path d="M30 9 L49 17 V36 C49 48 30 56 30 56 C30 56 11 48 11 36 V17 Z" fill="#0B2545" stroke="#C09D59" stroke-width="1" opacity="0.95"/>
+    
+    <!-- Torch & Book Motif -->
+    <path d="M24 44 C26 42 30 42 30 42 C30 42 34 42 36 44" stroke="#C09D59" stroke-width="2" stroke-linecap="round"/>
+    <path d="M22 47 C26 45 30 45 30 45 C30 45 34 45 38 47" stroke="#C09D59" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M30 22 V36" stroke="#C09D59" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Flame -->
+    <path d="M30 15 C27 18 28 21 30 23 C32 21 33 18 30 15 Z" fill="#E5C378"/>
+    <!-- Star of Excellence -->
+    <polygon points="30,2 32,7 37,7 33,10 35,15 30,12 25,15 27,10 23,7 28,7" fill="#C09D59"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="75" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="20" letter-spacing="1.5" fill="currentColor">
+    TULA'S
+  </text>
+  <text x="75" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11" letter-spacing="3" fill="#C09D59">
+    INTERNATIONAL SCHOOL
+  </text>
+  <text x="75" y="62" font-family="'Playfair Display', serif" font-style="italic" font-weight="500" font-size="10" letter-spacing="0.5" fill="#60BAB1">
+    • THE MODERN GURUKUL • DEHRADUN
+  </text>
+</svg>
