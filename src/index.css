@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1ede6;
+  }
+
+  .dark ::-webkit-scrollbar-track {
+    background: #0d1424;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c09d59;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b90124;
+  }
+}
+
+@layer utilities {
+  .bg-glass {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(185, 1, 36, 0.35);
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 20px rgba(192, 157, 89, 0.45);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .pattern-grid {
+    background-image: radial-gradient(rgba(192, 157, 89, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .pattern-lines {
+    background-image: linear-gradient(0deg, transparent 24%, rgba(185, 1, 36, 0.04) 25%, rgba(185, 1, 36, 0.04) 26%, transparent 27%, transparent 74%, rgba(185, 1, 36, 0.04) 75%, rgba(185, 1, 36, 0.04) 76%, transparent 77%, transparent);
+    background-size: 50px 50px;
+  }
+}

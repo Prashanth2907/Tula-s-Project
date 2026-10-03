@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Crest Shield -->
+  <path d="M50 8 L86 22 V56 C86 75 50 92 50 92 C50 92 14 75 14 56 V22 Z" fill="#B90124" stroke="#C09D59" stroke-width="3"/>
+  <path d="M50 15 L78 26 V54 C78 69 50 83 50 83 C50 83 22 69 22 54 V26 Z" fill="#0B2545" stroke="#C09D59" stroke-width="1.5" opacity="0.95"/>
+  <!-- Torch and Laurel -->
+  <path d="M42 64 C45 61 50 61 50 61 C50 61 55 61 58 64" stroke="#C09D59" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M50 35 V54" stroke="#C09D59" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Flame -->
+  <path d="M50 24 C45 29 47 34 50 37 C53 34 55 29 50 24 Z" fill="#E5C378"/>
+  <!-- Star of Knowledge -->
+  <polygon points="50,4 53,12 61,12 55,17 58,25 50,20 42,25 45,17 39,12 47,12" fill="#C09D59"/>
+</svg>
